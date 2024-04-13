@@ -12,6 +12,11 @@ public class FizzBuzz {
         if (num == 1 || num == 2) {
             return String.valueOf(num);
         }
+
+        if (num % 3 == 0){
+            return "Fizz";
+        }
+
         return null;
     }
 }
