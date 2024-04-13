@@ -9,9 +9,6 @@ public class FizzBuzz {
     }
 
     public static String fizzBuzz(int num) {
-        if (num == 1 || num == 2) {
-            return String.valueOf(num);
-        }
 
         if(num % 3 == 0 && num % 5 == 0){
             return "FizzBuzz";
@@ -25,6 +22,6 @@ public class FizzBuzz {
             return "Buzz";
         }
 
-        return null;
+        return String.valueOf(num);
     }
 }
